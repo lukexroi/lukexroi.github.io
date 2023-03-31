@@ -45,7 +45,23 @@
 }
 
 .site__footer_container-row-column h3{
-    text-decoration: underline;
+    margin-bottom: 0.4rem;
+}
+
+.col1_linebelow{
+    width: 170px; 
+    height: 2px;
+    background-color: #E50F75;
+    border: none;
+    margin-bottom: 0.9rem;
+}
+
+
+.col2_linebelow{
+    width: 130px; 
+    height: 2px;
+    background-color: #E50F75;
+    border: none;
     margin-bottom: 0.9rem;
 }
 

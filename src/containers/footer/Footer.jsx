@@ -17,6 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="site__footer_container-row-column">
                     <h3>FIND OUT MORE</h3>
+                    <hr class="col1_linebelow"></hr>
                     <h4><Link to="/">HOME</Link></h4>
                     <h4><Link to="/education">EDUCATION</Link></h4>
                     <h4><Link to="/projects">PROJECTS</Link></h4>
@@ -25,6 +26,7 @@ const Footer = () => {
                 </div>
                 <div className="site__footer_container-row-column">
                     <h3>REACH OUT</h3>
+                    <hr class="col2_linebelow"></hr>
                     <h4>
                         <FontAwesomeIcon icon={faEnvelope} /> lukexroi@gmail.com
                     </h4>
