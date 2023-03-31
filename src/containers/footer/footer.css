@@ -45,12 +45,12 @@
 }
 
 .site__footer_container-row-column h3{
+    text-decoration: underline;
     margin-bottom: 0.9rem;
 }
 
 .site__footer_container-row-column h4{
     margin: 0.5rem 0;
-    cursor: pointer;
 }
 
 
