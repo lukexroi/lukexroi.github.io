@@ -1,4 +1,3 @@
-index.js
 // Import react
 import React from 'react';
 // Allow us to hook our react application to our index.html
