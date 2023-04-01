@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .site__navbar-links_container a {
     display: flex;
     align-items: center;
@@ -34,6 +35,13 @@
     background-color: #e7c6ce;
 }
 
+
+
+.site__navbar-links_container a:active,
+.site__navbar-menu_container a:active {
+    color: #9A1750;
+}
+
 .site__navbar-links_container a,
 .site__navbar-menu_container a {
     color: #E71370;
@@ -41,9 +49,13 @@
     font-weight: 700;
     font-size: 18px;
 
-    padding:10px;
+    padding: 10px;
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.tab_active {
+    color: #9A1750 !important;
 }
 
 .site__navbar-menu {

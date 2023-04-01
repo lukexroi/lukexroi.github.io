@@ -6,28 +6,47 @@ import './navbar.css';
 
 // BEM -> Block Element Modifier
 
-const Menu = () => (
-    <>
-        <Link to="/">HOME</Link>
-        <Link to="/education">EDUCATION</Link>
-        <Link to="/projects">PROJECTS</Link>
-        <Link to="/resume">RESUME</Link>
-        <Link to="/more">MORE</Link>
-    </>
-)
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const location = useLocation();
-    useEffect(() =>{
+    useEffect(() => {
         setToggleMenu(false)
     }, [location])
+    const currentRoute = location.pathname
+    const Menu = () => (
+        <>
+            <Link
+                className={currentRoute.includes("") ? "tab_active" : ""}
+                to="/">HOME
+            </Link>
+
+            <Link
+                className={currentRoute.includes("education") ? "tab_active" : ""}
+                to="/education">EDUCATION
+            </Link>
+
+            <Link
+                className={currentRoute.includes("projects") ? "tab_active" : ""}
+                to="/projects">PROJECTS
+            </Link>
+            <Link
+                className={currentRoute.includes("resume") ? "tab_active" : ""}
+                to="/resume">RESUME
+            </Link>
+            <Link
+                className={currentRoute.includes("more") ? "tab_active" : ""}
+                to="/more">MORE
+            </Link>
+        </>
+    )
+
     return (
         <div className="site__navbar">
             <div className="site__navbar-links">
                 <div className="site__navbar-links_logo">
-                    <a href="https://lukeroy17.github.io/"/>
-                        <img src={logo} alt="logo" />
+                    <a href="https://lukeroy17.github.io/" />
+                    <img src={logo} alt="logo" />
                 </div>
                 <div className="site__navbar-links_container">
                     <Menu />
