@@ -59,7 +59,7 @@ const pathwayDetails = [
         iconColor: "#fff",
         title: "Temasek Polytechnic",
         subtitle: "Diploma in Applied Artificial Intelligence",
-        description1: "cGPA of AY2022/2023 of 3.94 ",
+        description1: "cGPA of AY2022/2023 of 3.94 | cGPA of AY2022/2023 & AY2021/2022 of 3.91",
         description2: "AY2022/2023 April Semester (Main) GPA of 3.90",
         description3: "AY2022/2023 October Semester (Main) GPA of 4.00",
     }

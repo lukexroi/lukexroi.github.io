@@ -1,7 +1,20 @@
-.site__pathway{
+.site__pathway {
     padding-top: 50px;
 }
 
-h4{
+h3 {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.vertical-timeline-element-content p {
+    margin-top: 0px !important;
+
 }
