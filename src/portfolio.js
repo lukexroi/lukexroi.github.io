@@ -24,7 +24,7 @@ const socialMediaLinks = [
         name: "Medium",
         link: "https://medium.com/@lukexroi",
         fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/google?style=brands
-        backgroundColor: "#ffffff", // Reference https://simpleicons.org/?q=medium
+        backgroundColor: "#000000", // Reference https://simpleicons.org/?q=medium
     },
     {
         name: "Instagram",
