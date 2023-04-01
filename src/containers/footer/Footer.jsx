@@ -31,16 +31,16 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faEnvelope} /> lukexroi@gmail.com
                     </h4>
                     <h4>
-                        <a href="https://www.linkedin.com/in/lukepoh/"><FontAwesomeIcon icon={faLinkedin} /></a> LinkedIn
+                        <a href="https://www.linkedin.com/in/lukepoh/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a> 
                     </h4>
                     <h4>
-                        <a href="https://medium.com/@lukexroi"><FontAwesomeIcon icon={faMedium} /></a> Medium
+                        <a href="https://medium.com/@lukexroi"><FontAwesomeIcon icon={faMedium} /> Medium</a>
                     </h4>
                     <h4>
-                        <a href="https://github.com/lukexroi"><FontAwesomeIcon icon={faGithub} /></a> GitHub
+                        <a href="https://github.com/lukexroi"><FontAwesomeIcon icon={faGithub} /> GitHub</a> 
                     </h4>
                     <h4>
-                        <a href="https://www.instagram.com/lukeroi/"><FontAwesomeIcon icon={faInstagram} /></a> Instagram
+                        <a href="https://www.instagram.com/lukeroi/"><FontAwesomeIcon icon={faInstagram} /> Instagram</a> 
                     </h4>
                 </div>
             </div>
