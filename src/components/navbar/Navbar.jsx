@@ -17,7 +17,7 @@ const Navbar = () => {
     const Menu = () => (
         <>
             <Link
-                className={currentRoute.includes("") ? "tab_active" : ""}
+                className={currentRoute.length === 1 ? "tab_active" : ""}
                 to="/">HOME
             </Link>
 
