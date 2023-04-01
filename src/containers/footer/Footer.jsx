@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="site__footer_container-row">
                 <div className="site__footer_container-logo">
                     <img src={logo} alt="logo" />
-                    <h4>MADE BY LUKE POH</h4>
+                    <h3>MADE BY LUKE POH</h3 >
                 </div>
                 <div className="site__footer_container-row-column">
                     <h3>FIND OUT MORE</h3>
@@ -31,16 +31,16 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faEnvelope} /> lukexroi@gmail.com
                     </h4>
                     <h4>
-                        <a href="https://www.linkedin.com/in/lukepoh/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a> 
+                        <a href="https://www.linkedin.com/in/lukepoh/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
                     </h4>
                     <h4>
                         <a href="https://medium.com/@lukexroi"><FontAwesomeIcon icon={faMedium} /> Medium</a>
                     </h4>
                     <h4>
-                        <a href="https://github.com/lukexroi"><FontAwesomeIcon icon={faGithub} /> GitHub</a> 
+                        <a href="https://github.com/lukexroi"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
                     </h4>
                     <h4>
-                        <a href="https://www.instagram.com/lukeroi/"><FontAwesomeIcon icon={faInstagram} /> Instagram</a> 
+                        <a href="https://www.instagram.com/lukeroi/"><FontAwesomeIcon icon={faInstagram} /> Instagram</a>
                     </h4>
                 </div>
             </div>
