@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets//icons/lukexroi-high-resolution-logo-color-on-transparent-background.png';
+import logo from '../../assets/icons/lukexroi-high-resolution-logo-color-on-transparent-background.png';
 import './navbar.css';
 
 // BEM -> Block Element Modifier

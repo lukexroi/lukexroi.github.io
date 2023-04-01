@@ -7,6 +7,5 @@ import App from './App';
 import './index.css'
 import "./assets/font-awesome/css/all.css";
 
-
 // render the application, reference the div id root in index.html
 ReactDOM.render(<App />, document.getElementById('root'));

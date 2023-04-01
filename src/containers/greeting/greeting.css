@@ -1,0 +1,70 @@
+.site__greeting {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.site__greeting-main {
+    display: flex;
+}
+
+.site__greeting-main>* {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.greeting-text {
+    margin-top: 80px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+}
+
+.greeting-text-h2 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.site__greeting-main-image-div>* {
+    max-width: 100%;
+    height: auto;
+}
+
+.site__greeting-main-image-div img {
+    border: 5px solid var(--color-5);;
+    border-radius: 30px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .greeting-text {
+        font-size: 50px;
+    }
+
+    .greeting-text-p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .greeting-text {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .greeting-nickname {
+        text-align: center;
+    }
+
+    .greeting-text-h2 {
+        margin-right: 0px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .site__greeting-main {
+        display: block;
+    }
+}

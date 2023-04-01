@@ -3,7 +3,7 @@ import logo from '../../assets//icons/lukexroi-high-resolution-logo-color-on-tra
 import './footer.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons' 
 import { faLinkedin, faMedium, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -70,7 +70,7 @@ const Footer = () => {
             <hr />
             <div className="site__footer_container_copyright">
                 <p className="site__footer_copyright_text">
-                    &copy;{new Date().getFullYear()} lukexroi.github.io | All rights reserved | Terms of Service | Privacy Policy
+                    &copy;{new Date().getFullYear()} lukexroi.github.io | All Rights Reserved | Terms of Service | Privacy Policy
                 </p>
             </div>
         </div>

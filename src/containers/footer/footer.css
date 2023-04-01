@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background: var(--color-footer);
 }
 
@@ -51,8 +50,7 @@
 .col1_linebelow{
     width: 170px; 
     height: 2px;
-    background-color: #9A1750;
-    ;
+    background-color: var(--color-2);
     border: none;
     margin-bottom: 0.9rem;
 }
@@ -61,7 +59,7 @@
 .col2_linebelow{
     width: 130px; 
     height: 2px;
-    background-color: #9A1750;
+    background-color: var(--color-2);
     border: none;
     margin-bottom: 0.9rem;
 }
@@ -72,14 +70,16 @@
 
 .site__footer-link a:hover, 
 .site__footer-link a:active{   
-    color: #b31c5d;
+    color: var(--color-3);
+    transition: 0.3s ease-in;
 }
 
 .site__footer-sm-link a:hover,
 .site__footer-sm-link a:link, 
 .site__footer-sm-link a:hover, 
 .site__footer-sm-link a:visited{   
-    color: #b31c5d;
+    color: var(--color-3);
+    transition: 0.3s ease-in;
 }
 
 

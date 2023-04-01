@@ -16,7 +16,7 @@ a {
 
 h1 {
     display: block;
-    color: #5D001E;
+    color: var(--color-1);
     font-family: var(--font-family);
     font-size: 2em;
     margin-top: 1em;
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     font-family: var(--font-family);
-    color: #9A1750;
+    color: var(--color-2);
     display: block;
     font-size: 1.5em;
     margin-top: 0.83em;
@@ -40,7 +40,7 @@ h2 {
 
 h3 {
     font-family: var(--font-family);
-    color: #9A1750;
+    color: var(--color-3);
     display: block;
     font-size: 1.17em;
     margin-top: 0.67em;
@@ -52,7 +52,7 @@ h3 {
 
 h4 {
     font-family: var(--font-family);
-    color: #EE4C7C;
+    color: var(--color-4);
     display: block;
     font-size: 1em;
     margin-top: 0.4em;
@@ -65,7 +65,7 @@ h4 {
 
 p {
     font-family: var(--font-family);
-    color: #190010;
+    color: var(--color-text);
     display: block;
     font-size: 1em;
     margin-top: 0.4em;
