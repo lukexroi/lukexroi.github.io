@@ -19,9 +19,9 @@ export default function Greeting(props) {
                                 "Junior in Diploma of Applied Artificial Intelligence (AAI)",
                                 "Temasek Polytechnic (TP) Scholar",
                                 "Vice President of AAI Student Interest Group",
-                                "LEAD EXCEL Student (Top 1% of TP's Leadership Programme)",
+                                "LEAD EXCEL Student (Top 1% of TP's LEADership Programme)",
                                 "Co-founder of You'th",
-                                "Member of Health Promotion Board's Youth Resource Panel (HPB YRP)"
+                                "Member of Health Promotion Board's Youth Resource Panel"
                             ]}
                             typeSpeed={50}
                             backSpeed={25}
