@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Greeting } from '../containers';
+import { Greeting, Pathway } from '../containers';
 
 
 class Home extends Component {
@@ -7,6 +7,7 @@ class Home extends Component {
         return (
             <div className="site__home-content section__padding">
                 <Greeting />
+                <Pathway />
             </div>
         );
     }
