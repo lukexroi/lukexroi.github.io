@@ -29,8 +29,8 @@
 }
 
 .site__footer_container-logo img {
-    width: 240px;
-    height: 150px;
+    width: 250px;
+    height: 156.25px;
     margin-bottom: 1rem;
 }
 
@@ -75,9 +75,11 @@
     color: #b31c5d;
 }
 
-.site__footer-link a:link, 
-.site__footer-link a:visited{   
-    color: #9A1750;
+.site__footer-sm-link a:hover,
+.site__footer-sm-link a:link, 
+.site__footer-sm-link a:hover, 
+.site__footer-sm-link a:visited{   
+    color: #b31c5d;
 }
 
 
@@ -88,8 +90,8 @@
 }
 
 .site__footer_container_copyright {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     width: 100%;
 }
