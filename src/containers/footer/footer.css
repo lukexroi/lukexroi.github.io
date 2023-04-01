@@ -72,12 +72,12 @@
 
 .site__footer-link a:hover, 
 .site__footer-link a:active{   
-    color: #9A1750;
+    color: #b31c5d;
 }
 
 .site__footer-link a:link, 
 .site__footer-link a:visited{   
-    color: #60092f;
+    color: #9A1750;
 }
 
 
