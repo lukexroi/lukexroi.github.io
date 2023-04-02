@@ -11,13 +11,15 @@ export default function Pathway() {
     return (
         < div className="site__pathway" >
             {
-                <h1>My Education Pathway 🏫</h1>}{
+                <h1>My Education Pathway</h1>}{
+                <h3>Click to find out more about each institution! 🏫 </h3>
+                }{
                 pathwayDetails.map((pathway_details) => {
                     return (
                         <VerticalTimeline lineColor="#3e497a" layout="1-column">
                             <VerticalTimelineElement
-                                contentStyle={{color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid'}}
+                                contentStyle={{ color: '#fff' }}
+                                contentArrowStyle={{ borderRight: '7px solid' }}
                                 className="vertical-timeline-element--school"
                                 iconStyle={{ background: pathway_details.iconBackgroundColor, color: pathway_details.iconColor }}
                                 icon={pathway_details.icon}
