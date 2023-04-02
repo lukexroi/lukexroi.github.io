@@ -6,21 +6,23 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { pathwayDetails } from "../../portfolio";
+import StarIcon from "@material-ui/icons/Star";
+
 
 export default function Pathway() {
     return (
         < div className="site__pathway" >
             {
                 <h1>My Education Pathway</h1>}{
-                <h3>Click to find out more about each institution! 🏫 </h3>
-                }{
-                pathwayDetails.map((pathway_details) => {
-                    return (
-                        <VerticalTimeline lineColor="#3e497a" layout="1-column">
+                <h3>Click to find out more</h3>
+            }{
+                <VerticalTimeline lineColor="#5D001E" layout="1-column">{
+                    pathwayDetails.map((pathway_details) => {
+                        return (
                             <VerticalTimelineElement
-                                contentStyle={{ color: '#fff' }}
+                                contentStyle={{ color: '#fff', borderTopColor: pathway_details.iconBackgroundColor, borderTopStyle: "solid", borderTopWidth: 3 }}
                                 contentArrowStyle={{ borderRight: '7px solid' }}
-                                className="vertical-timeline-element--school"
+                                className="vertical-timeline-element"
                                 iconStyle={{ background: pathway_details.iconBackgroundColor, color: pathway_details.iconColor }}
                                 icon={pathway_details.icon}
                             >
@@ -43,10 +45,13 @@ export default function Pathway() {
                                     {pathway_details.description3}
                                 </p>
                             </VerticalTimelineElement>
-
-                        </VerticalTimeline>
-                    );
-                })
+                        );
+                    })}
+                    <VerticalTimelineElement
+                        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                        icon={<StarIcon />}
+                    />
+                </VerticalTimeline>
             }
         </div >
     );
