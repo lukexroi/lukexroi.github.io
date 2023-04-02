@@ -11,7 +11,7 @@ export default function Pathway() {
     return (
         < div className="site__pathway" >
             {
-                <h1>My Education Pathway</h1>}{
+                <h1>My Education Pathway 🏫</h1>}{
                 pathwayDetails.map((pathway_details) => {
                     return (
                         <VerticalTimeline lineColor="#3e497a" layout="1-column">
