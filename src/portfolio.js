@@ -42,7 +42,10 @@ const pathwayDetails = [
         date: "2026 September - 2030 April",
         iconBackgroundColor: "#3e497a",
         iconColor: "#fff",
-        icon: <ProgressIcon/>,
+        icon: <ProgressIcon />,
+        functionLink: function () {
+            window.open("https://dai.sutd.edu.sg", "_blank")
+        },
         title: "Singapore University of Technology and Design (SUTD)",
         subtitle: "Diploma in Applied Artificial Intelligence",
         description1: "Successful Applicant of SUTD's Early Engagement & Development (SEED) Programme, receiving a conditional offer to SUTD",
@@ -53,7 +56,10 @@ const pathwayDetails = [
         date: "2023 September - 2024 February",
         iconBackgroundColor: "#ffdb0e",
         iconColor: "#fff",
-        icon: <InternProjectIcon/>,
+        icon: <InternProjectIcon />,
+        functionLink: function () {
+            window.open("https://www.tp.edu.sg/research-and-industry/student-internship-programme.html", "_blank")
+        },
         title: "Student Internship Programme (Associated with TP)",
         subtitle: <em>Company To Be Confirmed</em>,
         description1: "This structured programme is designed to link my learning with the real work environment.",
@@ -64,7 +70,10 @@ const pathwayDetails = [
         date: "2023 June - 2023 September",
         iconBackgroundColor: "#ffdb0e",
         iconColor: "#fff",
-        icon: <InternProjectIcon/>,
+        icon: <InternProjectIcon />,
+        functionLink: function () {
+            window.open("https://www.tp.edu.sg/t69", "_blank")
+        },
         title: "Major Project (Associated with TP)",
         subtitle: <em>Project/Company To Be Confirmed</em>,
         description1: "This subject involves the intergration of knowledge and skills acquired from the various subjects in the course.",
@@ -72,10 +81,27 @@ const pathwayDetails = [
         description3: "I will develop, present and demonstrate solutions to a problem.",
     },
     {
+        date: "2022 April - 2024 March",
+        iconBackgroundColor: "#3e497a",
+        iconColor: "#fff",
+        icon: <SchoolIcon />,
+        functionLink: function () {
+            window.open("https://www.tp.edu.sg/t69", "_blank")
+        },
+        title: "Temasek Polytechnic (TP)",
+        subtitle: "Diploma of Applied Artificial Intelligence",
+        description1: "cGPA of AY2022/2023 of 3.94 | cGPA of AY2022/2023 & AY2021/2022 of 3.91",
+        description2: "AY2022/2023 April Semester (Main) GPA of 3.90",
+        description3: "AY2022/2023 October Semester (Main) GPA of 4.00",
+    },
+    {
         date: "2021 April - 2022 March",
         iconBackgroundColor: "#3e497a",
         iconColor: "#fff",
-        icon: <SchoolIcon/>,
+        icon: <SchoolIcon />,
+        functionLink: function () {
+            window.open("https://www.tp.edu.sg/schools-and-courses/students/schools/iit/common-ict-programme.html", "_blank")
+        },
         title: "Temasek Polytechnic (TP)",
         subtitle: "Common Information and Communications Technology Programme (CICT)",
         description1: "cGPA of AY2021/2022 of 3.88",
@@ -86,7 +112,10 @@ const pathwayDetails = [
         date: "2017 - 2020",
         iconBackgroundColor: "#3e497a",
         iconColor: "#fff",
-        icon: <SchoolIcon/>,
+        icon: <SchoolIcon />,
+        functionLink: function () {
+            window.open("https://www.acsindep.moe.edu.sg/", "_blank")
+        },
         title: "Anglo Chinese School Independent (ACSI)",
         subtitle: "The Singapore-Cambridge General Certificate of Education Ordinary Level (GCE O-Level)",
         description1: "L1R5 Raw Score of 13, Nett Score of 11",
