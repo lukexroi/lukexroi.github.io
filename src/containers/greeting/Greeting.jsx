@@ -1,11 +1,40 @@
 import React from "react";
 import Typed from 'react-typed'
 import './greeting.css'
-import home_pic1 from '../../assets/images/GEPUK_IndividualPic3';
+import { imgDetails } from "../../portfolio";
+import home_pic1 from '../../assets/images/GEPUK_IndividualPic3.jpeg';
+import TinySlider from "tiny-slider-react";
+import "tiny-slider/dist/tiny-slider.css";
 import { SocialMedia } from '../../components';
 
 export default function Greeting(props) {
     const theme = props.theme;
+
+    const imgStyles = {
+        width: "100%",
+        height: "475px",
+        objectFit: "cover"
+    };
+
+    const tinySliderSettings = {
+        lazyload: true,
+        nav: false,
+        mouseDrag: true,
+        loop: true,
+        items: 1,
+        gutter: 5,
+        controls: false, // remove built-in nav buttons
+        responsive: {
+            420: {
+                items: 1
+            }
+        },
+        autoplay: true,
+        autoplayButtonOutput: false,
+    };
+
+    // const loadingImage =
+    //     "data:image/gif;base64,R0lGODlhAQABAPAAAMzMzAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==";
 
     return (
         <div className="site__greeting">
@@ -31,10 +60,17 @@ export default function Greeting(props) {
                     <SocialMedia theme={theme} />
                 </div>
                 <div className="site__greeting-main-image-div">
-                    <img
-                        alt="First Picture"
-                        src={home_pic1}>
-                    </img>
+                    <TinySlider settings={tinySliderSettings}>
+                        {
+                            imgDetails.map((img_details) => {
+                                return (
+                                    <div key={img_details.index}>
+                                        <img src={require(`../../assets/images/${img_details.imgSrc}`)} alt={img_details.imgAlt} style={imgStyles} />
+                                    </div>
+                                )
+                            })
+                        }
+                    </TinySlider>
                 </div>
             </div>
         </div>

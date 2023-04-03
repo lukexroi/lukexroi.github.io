@@ -124,7 +124,52 @@ const pathwayDetails = [
     }
 ];
 
+
+const imgDetails = [
+    {
+        index:0, 
+        imgSrc:'GEPUK_IndividualPic3.jpeg', 
+        imgAlt:"Individual First Photo"
+    },
+    {
+        index:1, 
+        imgSrc:'AAISIG_MainCommPic_Fun2.JPG', 
+        imgAlt:"Applied AI Student Interest Group"
+    },
+    {
+        index:2, 
+        imgSrc:'VisitToGoogle_GroupPic.jpg', 
+        imgAlt:"Visit to Google with Best Friend Luke Lim"
+    },
+    {
+        index:3, 
+        imgSrc:'DirectorsListCeremony_IndividualPic_Far.jpg', 
+        imgAlt:"Director's List Award Ceremony"
+    },
+    {
+        index:4, 
+        imgSrc:'TPScholarshipCeremony_IndividualPic.jpg', 
+        imgAlt:"TP Scholarship Award Ceremony"
+    },
+    {
+        index:5, 
+        imgSrc:'OpenMicSharing_TeamPhoto1.jpeg', 
+        imgAlt:"YAC Season 3 Group Photo"
+    },
+    {
+        index:6, 
+        imgSrc:'OpenMicSharing_SharingPrototype.jpeg', 
+        imgAlt:"YAC Season 3 Individual Photo"
+    },
+    {
+        index:7, 
+        imgSrc:'GEPUK_GroupPic.JPG', 
+        imgAlt:"School Trip to UK"
+    },
+];
+
 export {
     socialMediaLinks,
-    pathwayDetails
+    pathwayDetails,
+    imgDetails
 }
