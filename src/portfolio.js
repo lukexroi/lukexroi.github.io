@@ -163,7 +163,7 @@ const imgDetails = [
     },
     {
         index:7, 
-        imgSrc:'GEPUK_GroupPic.JPG', 
+        imgSrc:'GEPUK_GroupPic2.jpg', 
         imgAlt:"School Trip to UK"
     },
 ];

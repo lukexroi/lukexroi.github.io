@@ -12,7 +12,7 @@ export default function Greeting(props) {
 
     const imgStyles = {
         width: "100%",
-        height: "475px",
+        height: "450px",
         objectFit: "cover"
     };
 
