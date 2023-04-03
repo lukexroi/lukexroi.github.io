@@ -129,17 +129,17 @@ const imgDetails = [
     {
         index:0, 
         imgSrc:'GEPUK_IndividualPic3.jpeg', 
-        imgAlt:"Individual First Photo"
+        imgAlt:"In London!!"
     },
     {
         index:1, 
         imgSrc:'AAISIG_MainCommPic_Fun2.JPG', 
-        imgAlt:"Applied AI Student Interest Group"
+        imgAlt:"Applied AI Student Interest Group Main Committee Picture"
     },
     {
         index:2, 
         imgSrc:'VisitToGoogle_GroupPic.jpg', 
-        imgAlt:"Visit to Google with Best Friend Luke Lim"
+        imgAlt:"Visit to Google!!"
     },
     {
         index:3, 
@@ -154,17 +154,17 @@ const imgDetails = [
     {
         index:5, 
         imgSrc:'OpenMicSharing_TeamPhoto1.jpeg', 
-        imgAlt:"YAC Season 3 Group Photo"
+        imgAlt:"Youth Action Challenge Season 3 Group Photo"
     },
     {
         index:6, 
         imgSrc:'OpenMicSharing_SharingPrototype.jpeg', 
-        imgAlt:"YAC Season 3 Individual Photo"
+        imgAlt:"Youth Action Challenge Season 3 Sharing Prototype"
     },
     {
         index:7, 
         imgSrc:'GEPUK_GroupPic2.jpg', 
-        imgAlt:"School Trip to UK"
+        imgAlt:"Trip to UK as part of Leadership Programme"
     },
 ];
 
