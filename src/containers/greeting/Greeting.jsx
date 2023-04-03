@@ -12,7 +12,7 @@ export default function Greeting(props) {
 
     const imgStyles = {
         width: "100%",
-        height: "450px",
+        height: "460px",
         objectFit: "cover"
     };
 
@@ -66,7 +66,7 @@ export default function Greeting(props) {
                                 return (
                                     <div key={img_details.index}>
                                         <img src={require(`../../assets/images/${img_details.imgSrc}`)} alt={img_details.imgAlt} style={imgStyles} />
-                                        <h4>{img_details.imgAlt}</h4>
+                                        <h4 className="image-caption">{img_details.imgAlt}</h4>
                                     </div>
                                 )
                             })
