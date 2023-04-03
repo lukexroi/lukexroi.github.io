@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from 'react-typed'
 import './greeting.css'
-import profilepic from '../../assets/images/IMG_4132.jpeg';
+import home_pic1 from '../../assets/images/GEPUK_IndividualPic3';
 import { SocialMedia } from '../../components';
 
 export default function Greeting(props) {
@@ -32,8 +32,8 @@ export default function Greeting(props) {
                 </div>
                 <div className="site__greeting-main-image-div">
                     <img
-                        alt="profile pic"
-                        src={profilepic}>
+                        alt="First Picture"
+                        src={home_pic1}>
                     </img>
                 </div>
             </div>

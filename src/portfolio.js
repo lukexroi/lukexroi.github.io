@@ -47,7 +47,7 @@ const pathwayDetails = [
             window.open("https://dai.sutd.edu.sg", "_blank")
         },
         title: "Singapore University of Technology and Design (SUTD)",
-        subtitle: "Diploma in Applied Artificial Intelligence",
+        subtitle: "Bachelor of Science (Design and Artificial Intelligence)",
         description1: "Successful Applicant of SUTD's Early Engagement & Development (SEED) Programme, receiving a conditional offer to SUTD",
         description2: "Aspiring to enroll in SUTD's Undergraduate Programme of Design and Artificial Intelligence (DAI)",
         description3: "Exploring the possibility to apply for SUTD's Technology Entrepreneurship Programme (STEP) ",
@@ -89,7 +89,7 @@ const pathwayDetails = [
             window.open("https://www.tp.edu.sg/t69", "_blank")
         },
         title: "Temasek Polytechnic (TP)",
-        subtitle: "Diploma of Applied Artificial Intelligence",
+        subtitle: "Diploma of Applied Artificial Intelligence (AAI)",
         description1: "cGPA of AY2022/2023 of 3.94 | cGPA of AY2022/2023 & AY2021/2022 of 3.91",
         description2: "AY2022/2023 April Semester (Main) GPA of 3.90",
         description3: "AY2022/2023 October Semester (Main) GPA of 4.00",
