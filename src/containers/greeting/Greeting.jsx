@@ -40,17 +40,17 @@ export default function Greeting(props) {
         <div className="site__greeting">
             <div className="site__greeting-main">
                 <div className="site__greeting-main-text-div">
-                    <h1 className="greeting-text">Hey, My Name's Luke 👋🏻</h1>
+                    <h1 className="greeting-text">Hey👋🏻 My Name's Luke </h1>
                     <h2 className="greeting-text-h2 subTitle">
-                        and I'm   
+                        And I'm 
                         <Typed
                             strings={[
-                                " A Junior in Diploma of Applied Artificial Intelligence (AAI)",
-                                " A Temasek Polytechnic (TP) Scholar",
-                                " The Vice President of AAI Student Interest Group",
-                                " A LEAD EXCEL Student (Top 1% of TP's LEADership Programme)",
-                                " The Co-founder of You'th",
-                                " A Member of Health Promotion Board's Youth Resource Panel"
+                                "... A Junior in Diploma of Applied Artificial Intelligence (AAI)",
+                                "... A Temasek Polytechnic (TP) Scholar",
+                                "... The Vice President of AAI Student Interest Group (AAISIG)",
+                                "... A LEAD EXCEL Student (Top 1% of TP's LEADership Programme)",
+                                "... The Co-founder of You'th",
+                                "... A Member of Health Promotion Board's Youth Resource Panel"
                             ]}
                             typeSpeed={50}
                             backSpeed={25}

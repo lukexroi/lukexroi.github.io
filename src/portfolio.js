@@ -134,7 +134,7 @@ const imgDetails = [
     {
         index:1, 
         imgSrc:'AAISIG_MainCommPic_Fun2.JPG', 
-        imgAlt:"Applied AI Student Interest Group Main Committee Picture"
+        imgAlt:"Applied AI Student Interest Main Committee Group Picture"
     },
     {
         index:2, 
