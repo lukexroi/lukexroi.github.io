@@ -45,7 +45,7 @@ export default function Greeting(props) {
                         And I'm 
                         <Typed
                             strings={[
-                                "... A Junior in Diploma of Applied Artificial Intelligence (AAI)",
+                                "... A Senior in the Diploma of Applied Artificial Intelligence (AAI)",
                                 "... A Temasek Polytechnic (TP) Scholar",
                                 "... The Vice President of AAI Student Interest Group (AAISIG)",
                                 "... A LEAD EXCEL Student (Top 1% of TP's LEADership Programme)",

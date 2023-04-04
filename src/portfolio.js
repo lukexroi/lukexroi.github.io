@@ -129,17 +129,17 @@ const imgDetails = [
     {
         index:0, 
         imgSrc:'GEPUK_IndividualPic3.jpeg', 
-        imgAlt:"In London!!"
+        imgAlt:"Me on a school trip to London!!"
     },
     {
         index:1, 
         imgSrc:'AAISIG_MainCommPic_Fun2.JPG', 
-        imgAlt:"Applied AI Student Interest Main Committee Group Picture"
+        imgAlt:"Applied AI Student Interest Group (AAISIG) Main Committee Picture (Furthermost Right)"
     },
     {
         index:2, 
         imgSrc:'VisitToGoogle_GroupPic.jpg', 
-        imgAlt:"Visit to Google!!"
+        imgAlt:"AAISIG's Visit to Google!! (Furthermost Left)"
     },
     {
         index:3, 
@@ -154,17 +154,17 @@ const imgDetails = [
     {
         index:5, 
         imgSrc:'OpenMicSharing_TeamPhoto1.jpeg', 
-        imgAlt:"Youth Action Challenge Season 3 Group Photo"
+        imgAlt:"Youth Action Challenge Season 3 Group Photo (Furthermost Left)"
     },
     {
         index:6, 
         imgSrc:'OpenMicSharing_SharingPrototype.jpeg', 
-        imgAlt:"Youth Action Challenge Season 3 Sharing Prototype"
+        imgAlt:"Youth Action Challenge Season 3 Sharing Team's Prototype"
     },
     {
         index:7, 
         imgSrc:'GEPUK_GroupPic2.jpg', 
-        imgAlt:"Trip to UK as part of Leadership Programme"
+        imgAlt:"Leadership Programme's Trip to the UK (Pink Hoodie at the back)"
     },
 ];
 
